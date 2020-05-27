@@ -27,7 +27,7 @@ class ContactFormRequest extends FormRequest
             'name'      => 'required|min:5|max:100',
             'phone'     => 'nullable|numeric',
             'message'   => 'required|min:10',
-            'type'      => 'required'
+            'type'      => 'required|in:Recrutement,Aide,Devis'
         ];
     }
 }
