@@ -1,9 +1,7 @@
-import SessionRepository from "./SessionRepository";
 import FormRepository from "./FormRepository";
 
 const repositories = {
-    form: FormRepository,
-    session: SessionRepository
+    form: FormRepository
 };
 
 export const RepositoryFactory = {
